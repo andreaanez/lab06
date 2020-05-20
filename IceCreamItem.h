@@ -12,7 +12,8 @@ public:
 	// A virtual method that composes a string with the details
 	// of an IceCreamItem. See the lab writeup and test files
 	// for examples of the format for composeItem.
-	virtual std::string composeItem() = 0;
+	virtual std::string composeItem() = 0; //base class -- virtual function abstract class -- cant do ice cream item on its own 
+	//have to impliment compose item in object that is inheretiing this class 
 
 	// Returns the dollar amount of an ice cream item.
 	virtual double getPrice() = 0;
